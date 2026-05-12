@@ -25,6 +25,7 @@
         <button class="menuBtn" aria-label="Toggle menu">Menu ▾</button>
         <nav class="nav" aria-label="Primary navigation">
           <a href="index.html">Home</a>
+          <a href="accepted-papers.html">Accepted Papers</a>
           <a href="call-for-papers.html">Call for Papers</a>
           <a href="program.html">Program</a>
           <a href="organizers.html">Organizers</a>
@@ -46,7 +47,7 @@
           </div>
           <h1>PROGRAM</h1>
           <p class="sub">
-            Schedule and talk details will be announced.
+            A tentative schedule is below; talk details will be announced.
           </p>
           <div class="infoRow">
             <div class="chip">🗓 <b>Date</b> June 4, 2026</div>
@@ -65,13 +66,60 @@
   <section>
     <div class="container">
       <div class="sectionHead">
-        <h2>Schedule</h2>
+        <h2>Tentative Schedule <span class="schedNote">(subject to change)</span></h2>
       </div>
 
-      <div class="card tbdCard">
-        <div class="cardPad">
-          <p class="tbdText">TBD.</p>
-        </div>
+      <div class="tableWrap schedTable">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 200px;">Time</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="schedBreak">
+              <td><span class="schedTime">13:00 – 13:05</span></td>
+              <td><span class="schedActivity">Opening Remarks</span></td>
+            </tr>
+            <tr>
+              <td><span class="schedTime">13:05 – 13:35</span></td>
+              <td><span class="schedActivity">Talk 1</span></td>
+            </tr>
+            <tr>
+              <td><span class="schedTime">13:35 – 14:05</span></td>
+              <td><span class="schedActivity">Talk 2</span></td>
+            </tr>
+            <tr>
+              <td><span class="schedTime">14:05 – 14:35</span></td>
+              <td><span class="schedActivity">Talk 3</span></td>
+            </tr>
+            <tr>
+              <td><span class="schedTime">14:35 – 15:05</span></td>
+              <td><span class="schedActivity">Talk 4</span></td>
+            </tr>
+            <tr class="schedBreak">
+              <td><span class="schedTime">15:05 – 16:00</span></td>
+              <td><span class="schedActivity">Posters + Coffee</span></td>
+            </tr>
+            <tr class="schedBreak">
+              <td><span class="schedTime">16:00 – 16:55</span></td>
+              <td><span class="schedActivity">Oral Sessions</span></td>
+            </tr>
+            <tr>
+              <td><span class="schedTime">16:55 – 17:25</span></td>
+              <td><span class="schedActivity">Talk 5</span></td>
+            </tr>
+            <tr>
+              <td><span class="schedTime">17:25 – 17:55</span></td>
+              <td><span class="schedActivity">Talk 6</span></td>
+            </tr>
+            <tr class="schedBreak">
+              <td><span class="schedTime">17:55 – 18:00</span></td>
+              <td><span class="schedActivity">Closing Remarks</span></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
@@ -163,8 +211,8 @@
             </div>
           </div>
           <div class="talkRight">
-            <p class="talkField"><span class="talkLabel">Title:</span> TBD</p>
-            <p class="talkField"><span class="talkLabel">Abstract:</span> TBD</p>
+            <p class="talkField"><span class="talkLabel">Title:</span> Seeing Domain Generalization in Foundation Models: A Nearest-Neighbor View</p>
+            <p class="talkField"><span class="talkLabel">Abstract:</span> Foundation models and vision-language models have changed the landscape of domain generalization. Trained on large and diverse web-scale data, they often appear robust across datasets, styles, and visual domains. But are they truly domain-general, or have they learned a broader set of correlations? In this talk, I will look at domain generalization through the geometry of learned representations. Using nearest-neighbor structure, clustering, and visualization, I will discuss when foundation-model embeddings organize images by semantic content, and when they remain entangled with domain, style, background, prompt vocabulary, or transformation-specific cues. The central message of the talk is that domain generalization in the foundation-model era is not only a question of better objectives or larger pretraining data. It is also a question of inspection: how can we visualize, cluster, query, and audit learned representation spaces before deploying models in open-world settings? A nearest-neighbor view provides a practical lens for understanding both the strengths and the hidden failure modes of modern domain-general models.</p>
           </div>
         </article>
       </div>

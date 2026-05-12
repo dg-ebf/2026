@@ -388,6 +388,66 @@ kbd.key{
   color: rgba(2,6,23,.78);
 }
 
+.schedNote{
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--faint);
+  margin-left: 8px;
+}
+
+.schedTable table{min-width: 560px}
+.schedTable th{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(124,58,237,.08), rgba(37,99,235,.05));
+  border-bottom: 1px solid rgba(124,58,237,.18);
+}
+.schedTable td{
+  padding: 14px 18px;
+  color: var(--ink);
+  transition: background .15s ease;
+}
+.schedTable tbody tr:hover td{
+  background: rgba(124,58,237,.04);
+}
+.schedTable .schedTime{
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 650;
+  color: rgba(2,6,23,.78);
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(15,23,42,.04);
+  border: 1px solid var(--line);
+  white-space: nowrap;
+}
+.schedTable .schedActivity{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.schedTable tr.schedBreak td{
+  background: rgba(249,115,22,.04);
+}
+.schedTable tr.schedBreak:hover td{
+  background: rgba(249,115,22,.08);
+}
+.schedTable tr.schedBreak .schedActivity{
+  color: rgba(2,6,23,.82);
+  font-style: italic;
+}
+.schedTable tr.schedBreak .schedTime{
+  background: rgba(249,115,22,.10);
+  border-color: rgba(249,115,22,.22);
+  color: rgba(154,52,18,.95);
+}
+
 .talkList{display:grid; gap:14px}
 .talk{
   display:flex;
