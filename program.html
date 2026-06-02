@@ -84,7 +84,7 @@
             </tr>
             <tr>
               <td><span class="schedTime">13:05 – 13:35</span></td>
-              <td><span class="schedActivity">Talk 1 — Zsolt Kira: TBD</span></td>
+              <td><span class="schedActivity">Talk 1 — Zsolt Kira: Domain Generalization in Complex Multi-modal Large Language and Action Models</span></td>
             </tr>
             <tr>
               <td><span class="schedTime">13:35 – 14:05</span></td>
@@ -92,7 +92,7 @@
             </tr>
             <tr>
               <td><span class="schedTime">14:05 – 14:35</span></td>
-              <td><span class="schedActivity">Talk 3 — Aditi Raghunathan: TBD</span></td>
+              <td><span class="schedActivity">Talk 3 — Aditi Raghunathan: Sharpness-Aware Optimization for Domain Generalization</span></td>
             </tr>
             <tr>
               <td><span class="schedTime">14:35 – 15:05</span></td>
@@ -116,7 +116,7 @@
             </tr>
             <tr>
               <td><span class="schedTime">16:45 – 17:15</span></td>
-              <td><span class="schedActivity">Talk 5 — Abhinav Dhall: TBD</span></td>
+              <td><span class="schedActivity">Talk 5 — Abhinav Dhall: Context-Aware Deepfake Data Generation for Domain Generalization</span></td>
             </tr>
             <tr>
               <td><span class="schedTime">17:15 – 17:45</span></td>
@@ -149,8 +149,8 @@
             </div>
           </div>
           <div class="talkRight">
-            <p class="talkField"><span class="talkLabel">Title:</span> TBD</p>
-            <p class="talkField"><span class="talkLabel">Abstract:</span> TBD</p>
+            <p class="talkField"><span class="talkLabel">Title:</span> Domain Generalization in Complex Multi-modal Large Language and Action Models</p>
+            <p class="talkField"><span class="talkLabel">Abstract:</span> Multimodal large language and action models have enabled rapid progress in visual question answering, reasoning, and perception-conditioned decision-making agents. However, these systems remain brittle when adapted to downstream domains, especially through fine-tuning on custom datasets or deployment in robotics. This domain generalization problem is significantly more complex to solve, because there is a range of modules involved (e.g. vision, language, and action heads) in the same model with varying amounts of distribution shift relative to their respective pre-training, different capacities, and different amounts of both pre-training and fine-tuning data. This talk will examine robustness across the lifecycle of training multimodal action models, specifically through preserving generalization during fine-tuning, detecting failures during deployment, and recovering from them upon detection. I will first present methods that constrain fine-tuning to retain the out-of-distribution generalization of large pretrained models, with applications across computer vision, multimodal models, and vision-language-action models in robotics. I will then briefly discuss how post-training and inference can alleviate remaining brittleness to distribution shift through verification functions that can monitor trajectories and reasoning chains of decision-making agents to enable run-time failure detection, monitoring, and recovery. I will conclude with open problem in understanding and solving complex multi-modal distribution shifts.</p>
           </div>
         </article>
 
@@ -177,8 +177,8 @@
             </div>
           </div>
           <div class="talkRight">
-            <p class="talkField"><span class="talkLabel">Title:</span> TBD</p>
-            <p class="talkField"><span class="talkLabel">Abstract:</span> TBD</p>
+            <p class="talkField"><span class="talkLabel">Title:</span> Sharpness-Aware Optimization for Domain Generalization</p>
+            <p class="talkField"><span class="talkLabel">Abstract:</span> Domain-generalization methods typically target the data, the architecture, or the loss; this talk instead considers the optimizer, focusing on sharpness-aware minimization (SAM). In feature learning, SAM adaptively suppresses features the network has already learned well, counteracting SGD's simplicity bias and yielding a more diverse feature set; this improves out-of-distribution performance on data with spurious or redundant features, including CelebA, Waterbirds, CIFAR-MNIST, and DomainBed. In pretraining, the same approach reduces catastrophic forgetting under subsequent parameter updates: it cuts forgetting by up to 80% after post-training across models from 20M to 150M parameters, and a brief SAM mid-training phase on a 1B-parameter OLMo-2 checkpoint reduces forgetting by 31% after MetaMath post-training and 40% after 4-bit quantization. The optimizer shapes both what a model learns and what it keeps making it a fundamental and still underexplored lever for domain generalization.</p>
           </div>
         </article>
 
@@ -205,8 +205,8 @@
             </div>
           </div>
           <div class="talkRight">
-            <p class="talkField"><span class="talkLabel">Title:</span> TBD</p>
-            <p class="talkField"><span class="talkLabel">Abstract:</span> TBD</p>
+            <p class="talkField"><span class="talkLabel">Title:</span> Context-Aware Deepfake Data Generation for Domain Generalization</p>
+            <p class="talkField"><span class="talkLabel">Abstract:</span> Current deepfake detectors do not perform well in out-of-distribution tests. They fail under real-world domain shifts as they overfit to low-level pixel artifacts rather than understanding the scene context. In this talk, I will introduce a generative framework to solve this bottleneck. By combining the scale of AV-Deepfakes-1M with the reasoning-driven pipeline of MultiFakeVerse, we generate context-aware fakes with diverse gestures, human-object interactions, and scene backgrounds. This synthetic domain expansion induces detectors to learn beyond local texture shortcuts, while improving their domain generalization on unseen OOD data.</p>
           </div>
         </article>
 
